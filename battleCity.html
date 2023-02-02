@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle City</title>
+    <script src="../src/battleCity.js" type="module" async></script>
+    <link rel="stylesheet" href="./battleCity.css">
+</head>
+
+<body>
+    <section class="split left">
+        <div class="centred">
+            <canvas width="512" height="512">Canvas не поддерживается</canvas>
+        </div>
+    </section>
+    <section class="split right">
+        <div class="centred">
+            <h2 id="username">Игрок: </h2>
+            <h2 id="level">Уровень: </h2>
+            <!-- <h2>Количество очков: <span id="pointCount"></span> </h2> -->
+            <section id="records">
+                <h2>Таблица рекордов:</h2>
+                <table id="recordTable"></table>
+            </section>
+            <div id="rules" style="font-weight: bold;">
+                <h2>Клавиши для управления:</h2>
+                Стрелка влево - перемещение влево<br>
+                Стрелка вправо - перемещение вправо<br>
+                Стрелка вниз - перемещение вниз<br>
+                Стрелка вверх - перемещение вверх<br>
+                Space - выстрелить<br>
+                Backspace - начать уровень заново<br>
+                Escape - закончить игру
+            </div>
+        </div>
+        <button onclick="window.location='index.html'">Вернуться</button>
+    </section>
+    </section>
+    <script src="../src/recordTable.js"></script>
+</body>
+
+</html>

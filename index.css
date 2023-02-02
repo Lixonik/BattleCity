@@ -1,0 +1,41 @@
+body {
+    background-image: url("./assets/indexBackground.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+input {
+    border: 1px solid white;
+    padding: 15px 20px;
+    margin-top: 2vh;
+    
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input#submit {
+    border: 1px solid white;
+    padding: 15px 20px;
+    margin-top: 2vh;
+
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+input#submit:hover{
+    background-color: gray;
+}
